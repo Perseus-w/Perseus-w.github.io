@@ -144,9 +144,8 @@ ul li {
   list-style-image:url('../assets/bullet.png');
 }
 
-section, ul {
-  padding-left: 0;  /* Remove any default padding */
-  margin-left: 0;   /* Remove any default margin */
+ul {
+  list-style-position: inside;  /* Moves bullets inside the content box */
 }
 
 blockquote {
