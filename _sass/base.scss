@@ -274,40 +274,17 @@ a:active, a:focus {
 
 #intro {
   text-align: center;
-  margin-bottom: 70px; /* Keeps the spacing below the header */
+  margin-bottom: 70px;
 }
 
 #intro h1 {
   font-size: 3em;
   font-weight: bold;
-  color: #99ff66; /* Matches existing color */
+  color: #99ff66; /* Matches the existing name color */
 }
 
 #intro p {
   font-size: 1.2em;
-  color: #cccccc;
-  max-width: 600px;
-  margin: 0 auto; /* Center text */
-  text-align: center;
-}
-
-ul {
-  list-style: none; /* Remove default bullet points */
-  padding: 0;
-  text-align: center; /* Center align list items */
-}
-
-ul li {
-  margin-top: 30px; /* Adds extra space above the post title */
-}
-
-h2 {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-h2 a {
-  display: inline-block; /* Ensures alignment works properly */
-  text-decoration: none;
-  font-size: 1.5em; /* Keeps it visually distinct */
+  color: #cccccc; /* Subtle gray text */
+   max-width: 600px;
 }
