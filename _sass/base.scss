@@ -29,7 +29,6 @@ body {
   margin: 0 auto;
 }
 
-
 section {
   display: block;
   margin: 0 0 20px 0;
@@ -141,11 +140,7 @@ dt {
 }
 
 ul li {
-  //list-style-image:url('../assets/bullet.png');
-}
-
-ul {
-  list-style-position: inside;  /* Moves bullets inside the content box */
+  list-style-image:url('../assets/bullet.png');
 }
 
 blockquote {
