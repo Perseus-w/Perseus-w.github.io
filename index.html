@@ -2,20 +2,20 @@
 layout: default
 ---
 
-  <section>
-    <h1>Patrick Cannon</h1>
-    <p>Write a short introduction about yourself here. You can include links, images, or anything else.</p>
-  </section>
-  <br>
-  
-  
-  <ul>
-      {% for post in paginator.posts %}
-        <li>
-            <h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h2>
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
-            <p>{{ post.content | strip_html | truncatewords:35 }}</p>
-        </li>
-      {% endfor %}
-  </ul>
+<section>
+  <h1>Patrick Cannon</h1>
+  <p>Write a short introduction about yourself here. You can include links, images, or anything else.</p>
+</section>
+<br>
+
+
+<ul>
+    {% for post in paginator.posts %}
+      <li>
+          <h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h2>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+          <p>{{ post.content | strip_html | truncatewords:35 }}</p>
+      </li>
+    {% endfor %}
+</ul>
 
