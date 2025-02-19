@@ -278,12 +278,21 @@ a:active, a:focus {
 }
 
 #intro h1 {
-  font-size: 2em;
+   text-align: left;
+   font-size: 36px;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
   font-weight: bold;
-  color: #99ff66; /* Matches your name's color in the image */
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: $conifer;//$header;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+  letter-spacing: -1px;
+  -webkit-font-smoothing: antialiased;
 }
 
 #intro p {
-  font-size: 1.2em;
-  color: #cccccc;
+  text-align: left;
 }
