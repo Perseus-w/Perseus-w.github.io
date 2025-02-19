@@ -273,27 +273,3 @@ a:active, a:focus {
 #wrapper {
   min-height: calc(100vh - 100px);
 }
-
-#intro {
-  text-align: center;
-}
-
-#intro h1 {
-   text-align: left;
-   font-size: 40px;
-  line-height: 1.5;
-  margin: 0;
-  font-weight: bold;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $conifer;//$header;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
-  letter-spacing: -1px;
-  -webkit-font-smoothing: antialiased;
-}
-
-#intro p {
-  text-align: left;
-   
-}
