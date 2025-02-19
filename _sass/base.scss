@@ -274,15 +274,16 @@ a:active, a:focus {
 
 #intro {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
+   width: 80%;
+  max-width: 700px;
 }
 
 #intro h1 {
    text-align: left;
-   font-size: 36px;
+   font-size: 40px;
   line-height: 1.5;
   margin: 0;
-  text-align: center;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: $conifer;//$header;
@@ -295,4 +296,5 @@ a:active, a:focus {
 
 #intro p {
   text-align: left;
+   
 }
