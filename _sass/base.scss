@@ -88,6 +88,11 @@ header h2 {
   color: #666;
 }
 
+#home-header {
+   @extend header;
+   font-size: 40px;
+}
+
 /* Main Content
 */
 
