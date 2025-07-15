@@ -14,7 +14,7 @@ At the current time of writing this I will soon be entering my final semester at
 
 ## The Implementation
 
-I've always wanted to create a website for the longest time, but I either didn't have the time or didn't know the best way to do so. I finally sat down one day and brainstormed how to make it happen. I threw around the possibilities of using one of those website creating websites or also thought about just coding the entire website from scratch. After some further research, I finally settled on using a modified Jekyll template, hosted through GitHub Pages, and paired with a custom domain name. With this setup I have a website with a secure TLS connection, no home network being put at risk, and I can share all the information I would like over my own personal domain.  
+I've always wanted to create a website for the longest time, but I either didn't have the time or didn't know the best way to do so. I finally sat down one day and brainstormed how to make it happen. I threw around the possibilities of using one of those website building tools or also thought about just coding the entire website from scratch. After some further research, I finally settled on using a modified Jekyll template, hosted through GitHub Pages, and paired with a custom domain name. With this setup I have a website with a secure TLS connection, no home network being put at risk, and I can share all the information I would like over my own personal domain.  
 
 <br>
 
