@@ -1,7 +1,7 @@
 ---
 title: Website Creation
 published: true
-excerpt: Creating a personal website is something I’ve always intended to do, but like many side projects, it kept getting pushed aside by life, work, or the ever-growing...
+excerpt: At the current time of writing this I will soon be entering my final semester at the University of Central Florida. During my time here...
 ---
 
 <br>
