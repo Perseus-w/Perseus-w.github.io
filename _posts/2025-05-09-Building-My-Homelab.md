@@ -21,19 +21,20 @@ Now that I had a general plan in mind, the next steps of this project were to fi
 
 As for the software, after doing some more thorough research, I decided to utilize Proxmox VE for the server’s hypervisor. Proxmox stood out to me especially as it offers solid performance for running multiple virtual machines and also allows for them to be easily created, managed, and scaled efficiently. 
 
+<br> 
+
 ## Server Setup
 
 The current setup I have dedicated on this server is to have three virtual machines be created and running constantly with each machine dedicated to a certain task.
 
 Host OS: Proxmox VE
 Running Virtual Machines:
+- Pfsense:
+  For my first virtual machine, I’ve deployed pfSense to serve as the primary firewall and router for the homelab. This setup allows me to gain hands-on experience with core network security concepts such as network     segmentation, firewall rule configuration, and VPN setup. I’ve dedicated this VM exclusively to pfSense to ensure that all other virtual machines in the environment operate behind a consistently available and          properly managed firewall.
 
-  -Pfsense:
-   For my first virtual machine, I’ve deployed pfSense to serve as the primary firewall and router for the homelab. This setup allows me to gain hands-on experience with core network security concepts such as network segmentation, firewall rule configuration, and VPN setup. I’ve dedicated this VM exclusively to pfSense to ensure that all other virtual machines in the environment operate behind a consistently available and properly managed firewall.
+- Splunk:
+  Splunk is an essential tool for log analysis and security event monitoring. I’ve deployed it on this VM in order to build practical experience with SIEM (Security Information and Event Management) workflows.
 
-  -Splunk:
-   Splunk is an essential tool for log analysis and security event monitoring. I’ve deployed it on this VM in order to build practical experience with SIEM (Security Information and Event Management) workflows.
-
-  -To be determined...:
-Currently, I am still planning what software will go on future VMs but some possible candidates could be either Security Onion or Wazuh. 
+- To be determined...:
+  Currently, I am still planning what software will go on future VMs but some possible candidates could be either Security Onion or Wazuh. 
 
