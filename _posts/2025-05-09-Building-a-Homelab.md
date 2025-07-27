@@ -17,7 +17,7 @@ After realizing I could build my own server environment within the comfort of my
 
 ## Hardware and Software
 
-Now that I had a general plan in mind, the next steps of this project were to find suitable hardware that supported my initial goals. These goals mainly consisted of having a setup that could reliable run a minimum of 3-4 virtual machines at all times without any major performance issues. After researching potential candidates, I ended up opting for a refurbished Dell OptiPlex that had all the hardware specifications I would need for any projects I intended on running. 
+Now that I had a general plan in mind, the next steps of this project were to find suitable hardware that supported my initial goals. These goals mainly consisted of having a setup that could reliably run a minimum of 3-4 virtual machines at all times without any major performance issues. After researching potential candidates, I ended up opting for a refurbished Dell OptiPlex that had all the hardware specifications I would need for any projects I intended on running. 
 
 As for the software, after doing some more thorough research, I decided to utilize Proxmox VE for the server’s hypervisor. Proxmox stood out to me especially as it offers solid performance for running multiple virtual machines and also allows for them to be easily created, managed, and scaled efficiently. 
 
