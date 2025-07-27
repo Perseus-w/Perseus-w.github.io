@@ -1,5 +1,5 @@
 ---
-title: Building My Homelab
+title: Building a Homelab
 published: true
 excerpt: I'm always seeking new learning opportunities whenever available so that I can continue to grow my skills within the IT and cybersecurity industry. That is how...
 description: Patrick Cannon. University of Central Florida. Information Technology Major. Secure Computing and Networking Minor...
@@ -29,12 +29,12 @@ The current setup I have dedicated on this server is to have three virtual machi
 
 **Host OS**: Proxmox VE  
 Running Virtual Machines:
-- **Pfsense**:
+- **Pfsense**:  
   For my first virtual machine, I’ve deployed pfSense to serve as the primary firewall and router for the homelab. This setup allows me to gain hands-on experience with core network security concepts such as network     segmentation, firewall rule configuration, and VPN setup. I’ve dedicated this VM exclusively to pfSense to ensure that all other virtual machines in the environment operate behind a consistently available and          properly managed firewall.
 
-- **Splunk**:
+- **Splunk**:  
   Splunk is an essential tool for log analysis and security event monitoring. I’ve deployed it on this VM in order to build practical experience with SIEM (Security Information and Event Management) workflows.
 
-- **(To be determined...)**:
+- **(To be determined...)**:  
   Currently, I am still planning what software will go on future VMs but some possible candidates could be either Security Onion or Wazuh. 
 
