@@ -36,5 +36,5 @@ Running Virtual Machines:
   Splunk is an essential tool for log analysis and security event monitoring. I’ve deployed it on this VM in order to build practical experience with SIEM (Security Information and Event Management) workflows.
 
 - **(To be determined...)**:  
-  Currently, I am still planning what software will go on future machines but some possible candidates could be either Security Onion or Wazuh. 
+  Currently, I am still planning the software that will go on future machines but some possible candidates could be either Security Onion or Wazuh. 
 
